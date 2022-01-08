@@ -1,7 +1,9 @@
 <script>
+	import Footer from '$lib/components/footer.svelte'
 	import '../app.css'
-  </script>
+</script>
   
-  <main class="container max-w-3xl mx-auto px-4 mb-20">
+<main class="container max-w-3xl mx-auto px-4 mb-20">
 	<slot />
-  </main>
+</main>
+<Footer />
